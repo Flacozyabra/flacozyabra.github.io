@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+
+    <div class="container">
+        <fieldset>
+            <legend>Dose Settings</legend>
+            <table>
+                <tr  class="table_first_row">
+                    <td>
+                        <label for="dose_per_fraction">Dose per Fr. (Gy)</label>
+                        <input type="number" name="dose_per_fraction" step="0.1" placeholder="Normal: 0-12">
+                    </td>
+                    <td>
+                        <label for="total_fractions">Total Fractions</label>
+                        <input type="number" name="total_fractions" step="1" placeholder="Normal: 1-30">
+                    </td>
+                </tr>
+                <tr class="table_second_row">
+                    <td colspan="2">
+                        <label for="total_dose">Total Dose (Gy)</label>
+                        <input type="number" name="total_dose" placeholder="Normal: 20-80 Gy" readonly>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+	</div>
+
+    <div class="container">
+        <fieldset>
+            <legend>α/β early</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="ab_1">α/β</label>
+                        <input type="number" name="ab_1" placeholder="10" value="10">
+                    </td>
+                    <td>
+                        <label for="bed_1">BED</label>
+                        <input type="number" name="bed_1" placeholder="none" readonly>
+                    </td>
+                    <td>
+                        <label for="eqd2_1">EQD2</label>
+                        <input type="number" name="eqd2_1" placeholder="none" readonly>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+
+    <div class="container">
+        <fieldset>
+            <legend>α/β late</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="ab_2">α/β</label>
+                        <input type="number" name="ab_2" placeholder="3" value="3">
+                    </td>
+                    <td>
+                        <label for="bed_2">BED</label>
+                        <input type="number" name="bed_2" placeholder="none" readonly>
+                    </td>
+                    <td>
+                        <label for="eqd2_2">EQD2</label>
+                        <input type="number" name="eqd2_2" placeholder="none" readonly>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+
+    <!-- <div class="container">
+        <div class="btn">
+            <button>
+                Calculate
+            </button>
+        </div>
+    <div> -->
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+

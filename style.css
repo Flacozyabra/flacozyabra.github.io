@@ -1,0 +1,125 @@
+body {
+	font-size: 18px;
+}
+
+table {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    /* width: 100%; */
+    /* max-width: 390px; */
+    /* border-radius: 10px; */
+}
+
+td {
+    padding: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    /* box-sizing: border-box; */
+    /* padding: 5px; */
+    height: 30px;
+    width: 70%;
+    border-radius: 8px;
+    text-indent: 5px;
+}
+
+.table_first_row {
+    width: 50%;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+fieldset{
+    border-radius: 10px;
+    /* max-width: 390px; */
+}
+
+button{
+    display: block;
+    margin:auto;
+    max-width: 390px;
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.container{
+    max-width: 390px;
+}
+
+
+
+
+
+/* label{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+input{
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 70%;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+button{
+    display: block;
+    margin:auto;
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.container {
+    max-width: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    box-sizing: border-box;
+}
+.test{
+    width: 50px; 
+    height: 50px; 
+    background-color: red
+}
+.formochka{
+    width: 50%;
+    margin: auto;
+}
+label{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  } */
