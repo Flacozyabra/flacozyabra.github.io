@@ -54,6 +54,7 @@ button{
 
 .container{
     max-width: 390px;
+    min-width: 350px;
 }
 
 
